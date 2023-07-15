@@ -1,0 +1,73 @@
+.success-message {
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: 0 15px;
+  padding-top: 30%;
+  padding-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  h1 {
+    font-size: 2rem;
+    padding-block: 15px;
+  }
+  p {
+    font-size: 13.5px;
+  }
+
+  button {
+    cursor: pointer;
+    width: 100%;
+    background-color: var(--dark-slate-grey);
+    color: white;
+    border: 0;
+    padding: 15px 1rem;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    transition: background 0.5s ease-out;
+    outline: 0;
+
+    &:hover,
+    &:focus-visible {
+      background: linear-gradient(
+        to right,
+        var(--tomato) 60%,
+        hsl(24, 77%, 63%)
+      );
+    }
+  }
+}
+
+@media (width > 375px) {
+  .success-message-container {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    place-items: center;
+  }
+  .success-message {
+    padding: 0;
+    background-color: white;
+    width: 40%;
+    min-height: 50%;
+    padding: 2.5rem;
+    border-radius: 1rem;
+
+    button {
+      margin-top: 2rem;
+    }
+  }
+}
+
+@media (width < 800px) {
+  .success-message {
+    width: 80%;
+  }
+}
+@media (width < 375px) {
+  .success-message {
+    width: 100%;
+  }
+}

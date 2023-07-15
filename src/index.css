@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  src: local("Roboto Regular"),
+    url("./fonts/roboto-regular-webfont.woff2") format("woff2"),
+    url("./fonts/roboto-regular-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  src: local("Roboto Bold"),
+    url("./fonts/roboto-bold-webfont.woff2") format("woff2"),
+    url("./fonts/roboto-bold-webfont.woff") format("woff");
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: var(--dark-slate-grey);
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
