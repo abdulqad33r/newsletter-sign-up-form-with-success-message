@@ -96,7 +96,7 @@ Responsive Design
 ## Author
 
 - Website - [Abdul Qadeer](https://abdulqad33r.github.io/newsletter-sign-up-form-with-success-message/)
-- Frontend Mentor - [@abdulqad33r](https://www.frontendmentor.io/profile/Abdul-Qad33r)
+- Frontend Mentor - [@abdulqad33r](https://www.frontendmentor.io/profile/abdulqad33r)
 
 ## Acknowledgments
 
